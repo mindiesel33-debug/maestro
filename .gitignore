@@ -11,7 +11,7 @@ app/temp/
 ui/node_modules/
 
 # React build output
-ui/dist/
+
 
 # Pinokio runtime
 logs/
@@ -54,30 +54,7 @@ ss/
 # app/ heavy files — model weights, media, runtime data
 # (app/.gitignore handles the fine-grained rules for binary extensions)
 # ============================================================================
-app/ckpts/
-# User-imported Civitai checkpoints register as finetune JSONs here; the dir
-# ships only a placeholder .txt, so ignore the generated *.json (keep the .txt).
-app/finetunes/*.json
-app/loras/
-app/loras_i2v/
-app/loras_metadata/
-app/outputs/
-app/outputs2/
-app/gradio_outputs/
-app/storage/
-app/samples/
-app/settings/
-app/icons/lora_previews/
-app/uploads/
-app/wgp_config.json
-app/plugins_local.json
-app/loras_url_cache.json
-app/presets.json
-
-# SAM service runtime
-app/services/sam/env/
-app/services/sam/sam3/
-app/services/sam/checkpoints/
+a
 .masks/
 .temp_frames/
 
