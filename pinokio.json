@@ -1,0 +1,7 @@
+{
+  "title": "Maestro",
+  "description": "An all-in-one, 100% local AI creative studio, director, and multi-track editor. Generate with MiniMax H3, LTX-2.5/2.3, Wan, Flux, Qwen, and more; turn an idea or song into a planned production; then finish it on the timeline. Requires an NVIDIA GPU (6GB+ VRAM).",
+  "plugin": {
+    "menu": []
+  }
+}
